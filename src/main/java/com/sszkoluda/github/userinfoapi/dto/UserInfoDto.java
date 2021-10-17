@@ -1,6 +1,7 @@
 package com.sszkoluda.github.userinfoapi.dto;
 
-import lombok.*;
+import lombok.Builder;
+import lombok.Data;
 
 @Data
 @Builder

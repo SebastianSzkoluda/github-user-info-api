@@ -20,7 +20,7 @@ public class UserServiceImpl implements UserService {
     private String githubApiPath;
 
     private final UserInfoPersistenceService userInfoPersistenceService;
-    private final RestTemplate restTemplate = new RestTemplate();
+    private final RestTemplate restTemplate;
 
     @Override
     public Optional<UserDto> getUser(String login) {

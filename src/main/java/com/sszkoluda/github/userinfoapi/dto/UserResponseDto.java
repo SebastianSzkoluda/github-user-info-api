@@ -1,6 +1,7 @@
 package com.sszkoluda.github.userinfoapi.dto;
 
-import lombok.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.Instant;
 
